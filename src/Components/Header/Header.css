@@ -1,0 +1,138 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    padding: 0 16px;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    font-family: "Saira", sans-serif;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    color: #70667f;
+}
+
+.fullname {
+    margin: 5px 0px;
+    font-size: 3rem;
+    color: #e08804;
+    font-family: 'Play', sans-serif;
+}
+
+.header-payment-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    /* padding-left: 30px; */
+    width: 90%;
+}
+
+.header-payment-container button {
+    background-color: #fcb212;
+    border: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-family: "Play", sans-serif;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.header-img-container {
+    position: relative;
+}
+
+.header-img-container img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px solid #fcd212;
+    border-left: 10px solid #003087;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle-1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    margin: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-bottom: 10px solid #e08804;
+    border-radius: 16px;
+}
+
+.circle-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+    right: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+/* Icons */
+.fa-cc-paypal {
+    color: #003087;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.fa-cc-visa {
+    color: #005e86;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.fa-cc-mastercard {
+    color: #df2432;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.fa-cc-amex {
+    color: #003087;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+/* Media Queries */
+@media(min-width: 768px) {
+    .header-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-content {
+        width: 50vw;
+    }
+
+    .header-img-container {
+        width: 50vw;
+    }
+
+    .header-payment-container button,
+    .fa-cc-visa,
+    .fa-cc-mastercard,
+    .fa-cc-paypal,
+    .fa-cc-amex {
+        margin-right: 30px;
+    }
+}

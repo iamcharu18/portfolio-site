@@ -1,5 +1,6 @@
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
+import Services from "./Components/Services/Services";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Header />
+      <Services />
     </div>
   );
 }

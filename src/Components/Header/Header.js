@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className='header-container'>
             <div className='header-content'>
-                <h1>Hi! Am </h1>
+                <h2>Hi! Am </h2>
                 <h2 className='fullname'>Sobhan Sai Kuriti</h2>
                 <h2>I'm a {""}
                     <Typical steps={["Full Stack Developer🚀", 3000, "Machine Learning Engineer💡", 3000]}

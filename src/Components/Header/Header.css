@@ -12,18 +12,18 @@
 }
 
 .header-content h1 {
-    font-size: 2.5rem;
+    /* font-size: 2rem; */
     font-family: "Saira", sans-serif;
 }
 
 .header-content p {
     font-size: 1.2rem;
-    line-height: 1.9;
+    /* line-height: 1.9; */
     color: #70667f;
 }
 
 .fullname {
-    margin: 5px 0px;
+    /* margin: 1px 0px; */
     font-size: 3rem;
     color: #e08804;
     font-family: 'Play', sans-serif;
@@ -55,6 +55,7 @@
 
 .header-img-container {
     position: relative;
+    padding: 0 16px;
 }
 
 .header-img-container img {
@@ -134,5 +135,9 @@
     .fa-cc-paypal,
     .fa-cc-amex {
         margin-right: 30px;
+    }
+
+    .header-content p {
+        line-height: 1.9;
     }
 }

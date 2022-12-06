@@ -1,6 +1,7 @@
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
+import Works from "./Components/Works.js/Works";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <Services />
+      <Works />
     </div>
   );
 }

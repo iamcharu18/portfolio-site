@@ -11,3 +11,9 @@ body {
   font-size: 1.2rem;
   line-height: 1.5;
 }
+
+@media(min-width:1120px) {
+  * {
+    margin: 0 20px;
+  }
+}
